@@ -3,7 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { IgxComboModule, IgxIconModule } from 'igniteui-angular';
+import {
+  IgxComboModule,
+  IgxIconModule,
+  IgxSimpleComboComponent,
+  IgxSimpleComboModule,
+} from 'igniteui-angular';
 import { ComboTemplateComponent } from './combo-template/combo-template.component';
 
 @NgModule({
@@ -15,6 +20,7 @@ import { ComboTemplateComponent } from './combo-template/combo-template.componen
     FormsModule,
     IgxComboModule,
     IgxIconModule,
+    IgxSimpleComboModule,
   ],
   providers: [],
   schemas: [],
