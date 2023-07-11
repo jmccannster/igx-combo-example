@@ -25,9 +25,9 @@ export class ComboTemplateComponent implements OnInit {
     author2.authorId = '2';
 
     let author3: Author = new Author();
-    author2.firstName = 'Tyler';
-    author2.lastName = 'Cooc';
-    author2.authorId = '3';
+    author3.firstName = 'Tyler';
+    author3.lastName = 'Cooc';
+    author3.authorId = '3';
 
     this.authors.push(author1);
     this.authors.push(author2);
